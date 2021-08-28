@@ -2,6 +2,7 @@ import React from 'react';
 import HomeScreen from './src/screens/Home';
 import CartScreen from './src/screens/Cart';
 import MyAccountScreen from './src/screens/MyAccount';
+import BottomTabsNavigation from './src/components/BottomTabsNavigation';
 
 
 import { Provider as PaperProvider } from 'react-native-paper';
@@ -15,7 +16,7 @@ export default function App() {
   return (
     <PaperProvider>
       <NavigationContainer>
-        <Tab.Navigator
+        {/*<Tab.Navigator
           initialRouteName="Home"
           barStyle={{ alignItems: "center", justifyContent: "center"}}
         >
@@ -23,7 +24,8 @@ export default function App() {
           <Tab.Screen name="Carrinho" component={CartScreen} />
           <Tab.Screen name="Minha Conta" component={MyAccountScreen} />
 
-        </Tab.Navigator>
+        </Tab.Navigator>*/}
+        <BottomTabsNavigation></BottomTabsNavigation>
       </NavigationContainer>
     </PaperProvider>
   );
