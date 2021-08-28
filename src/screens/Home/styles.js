@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
     listContainer: {
         flex: 10,
         width: '100%',
-        padding: 10
     }
 });
 
