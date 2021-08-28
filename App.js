@@ -16,15 +16,6 @@ export default function App() {
   return (
     <PaperProvider>
       <NavigationContainer>
-        {/*<Tab.Navigator
-          initialRouteName="Home"
-          barStyle={{ alignItems: "center", justifyContent: "center"}}
-        >
-          <Tab.Screen name="Home" component={HomeScreen}/>
-          <Tab.Screen name="Carrinho" component={CartScreen} />
-          <Tab.Screen name="Minha Conta" component={MyAccountScreen} />
-
-        </Tab.Navigator>*/}
         <BottomTabsNavigation></BottomTabsNavigation>
       </NavigationContainer>
     </PaperProvider>
