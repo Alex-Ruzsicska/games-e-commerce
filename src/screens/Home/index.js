@@ -20,7 +20,7 @@ const Home = () => {
         </ToggleButton.Row>
       </View>
       <View style={styles.listContainer}>
-        <ProductsList products={products} orderBy={orderBy}/>
+        <ProductsList products={products} orderBy={orderBy} layout='home'/>
       </View>
     </View>
   );
