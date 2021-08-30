@@ -1,0 +1,3 @@
+export const SUM_PRODUCT = "SUM_PRODUCT";
+export const SUBTRACT_PRODUCT = "SUBTRACT_PRODUCT";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
