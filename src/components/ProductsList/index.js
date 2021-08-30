@@ -31,7 +31,7 @@ const ProductsList = (props)=>{
 
                     <View style={{flex: 2}}>
                         <Button
-                            style={{flex: 1, backgroundColor: '#5126d1'}}
+                            style={{flex: 1, backgroundColor: '#34eb37'}}
                             icon = 'cart'
                             color = 'white'
                             onPress = {()=>{dispatch(sumProduct(item.id))}}

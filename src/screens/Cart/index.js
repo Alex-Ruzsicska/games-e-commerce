@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconButton, Title} from 'react-native-paper';
+import { IconButton, Title, Button, Text } from 'react-native-paper';
 import { View } from 'react-native';
 import { useSelector } from 'react-redux';
 import ProductsList from '../../components/ProductsList';
@@ -48,9 +48,12 @@ const Cart = () => {
         </View>
         <View style={{flex: 1, justifyContent: 'center'}}>
           <Title style={{color: 'white', fontSize: 15}}>Frete: {shipping > 0? `R$${shipping.toFixed(2)}` : "GRÁTIS"}</Title>
-        </View>
-        <View style={{flex: 1, justifyContent: 'center'}}>
           <Title style={{color: 'white', fontSize: 15}}>Subtotal: R${subtotal.toFixed(2)}</Title>
+        </View>
+        <View style={{flex: 1, justifyContent: 'center', padding: 5}}>
+          <Button style={{flex: 1, backgroundColor: '#34eb37', justifyContent: 'center'}} mode='contained' icon='check'>
+            <Text style={{color: 'white', fontSize: 15, fontWeight: 'bold'}}>Finalizar Compra</Text>
+          </Button>
         </View>
       </View>
     </View>

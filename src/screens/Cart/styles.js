@@ -8,10 +8,6 @@ const styles = StyleSheet.create({
         marginTop: 20,
         backgroundColor: '#ededed'
     },
-    searchBarContainer:{
-        flex: 1,
-        padding: 10
-    },
     headerContainer: {
         flex: 1,
         width: '100%',

@@ -12,10 +12,6 @@ const styles = StyleSheet.create({
         flex: 1,
         padding: 10
     },
-    searchBar:{
-        flex: 1,
-        width: '100%',
-    },
     sortBarContainer: {
         flex: 1,
         width: '100%',
