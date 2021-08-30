@@ -1,24 +1,28 @@
 import React from 'react';
-import HomeScreen from './src/screens/Home';
-import CartScreen from './src/screens/Cart';
-import MyAccountScreen from './src/screens/MyAccount';
-import BottomTabsNavigation from './src/components/BottomTabsNavigation';
 
+//redux
+import store from './src/store/store';
+import { Provider } from 'react-redux'
 
+//react-native-paper
 import { Provider as PaperProvider } from 'react-native-paper';
+
+//react-navigation
+import BottomTabsNavigation from './src/components/BottomTabsNavigation';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-
 const Tab = createMaterialBottomTabNavigator();
 
 
 export default function App() {
   return (
-    <PaperProvider>
-      <NavigationContainer>
-        <BottomTabsNavigation></BottomTabsNavigation>
-      </NavigationContainer>
-    </PaperProvider>
+    <Provider store={store}>
+      <PaperProvider>
+        <NavigationContainer>
+          <BottomTabsNavigation></BottomTabsNavigation>
+        </NavigationContainer>
+      </PaperProvider>
+    </Provider>
   );
 }
 
