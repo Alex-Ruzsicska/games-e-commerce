@@ -5,7 +5,8 @@ const styles = StyleSheet.create({
         flex: 1, 
         justifyContent: "center", 
         alignItems: "center",
-        marginTop: 20
+        marginTop: 20,
+        backgroundColor: '#ededed'
     },
     searchBarContainer:{
         flex: 1,
@@ -18,7 +19,10 @@ const styles = StyleSheet.create({
     sortBarContainer: {
         flex: 1,
         width: '100%',
-        backgroundColor: 'green'
+        backgroundColor: '#5126d1',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: 10
     },
     listContainer: {
         flex: 10,
