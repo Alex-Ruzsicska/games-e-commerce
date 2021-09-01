@@ -14,7 +14,6 @@ Games E-commerce
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="https://i.imgur.com/yrHcEPT.jpg" alt="demo" height="425">
   <img src="https://i.imgur.com/ZUgwfwg.jpeg" alt="demo" height="425">
   <img src="https://i.imgur.com/iuB2MBv.jpeg" alt="demo" height="425">
   <img src="https://i.imgur.com/97f17RO.jpeg" alt="demo" height="425">
