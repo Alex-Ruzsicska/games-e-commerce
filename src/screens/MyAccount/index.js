@@ -16,10 +16,8 @@ const MyAccount = () => {
         <View style={styles.informationCell}>            
             <Title style={styles.title}>Endereços de Entrega:</Title>
             <ScrollView style={{flex: 1}}>
-              <InformationCard text="281 9th Ave, New York, NY 10001, EUA"/>
-              <InformationCard text="281 9th Ave, New York, NY 10001, EUA"/>
-              <InformationCard text="281 9th Ave, New York, NY 10001, EUA"/>
-              <InformationCard text="281 9th Ave, New York, NY 10001, EUA"/>
+              <InformationCard text="281 9th Ave, New York, EUA"/>
+              <InformationCard text="281 9th Ave, New York, EUA"/>
             </ScrollView>
         </View>
 
@@ -27,7 +25,6 @@ const MyAccount = () => {
             <Title style={styles.title}>Métodos de Pagamento:</Title>
             <ScrollView style={{flex: 1}}>
               <InformationCard text="Cartão MasterCard final 1234"/>
-              <InformationCard text="Cartão MasterCard final 1342"/>
               <InformationCard text="Cartão Visa final 1789"/>
             </ScrollView>
         </View>
